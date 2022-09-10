@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
 /**
 * main- This is the main function
 * Return: the value should be 0
@@ -25,5 +23,6 @@ int main(void)
 	else
 	{
 		printf("%d is negative", n);
+	}
 	return (0);
 }
