@@ -15,14 +15,14 @@ int main(void)
 	x = n % 10;
 	printf("Last string of %d is %d ", n, x);
 	if (x > 5)
-		printf("and is greater than 5\n");
+		printf("and is greater than 5");
 	else if (x == 0)
 	{
-		printf("and is 0\n");
+		printf("and is 0");
 	}
 	else if (x < 6 && x != 0)
 	{
-		printf("and is less than 6 and not 0\n");
+		printf("and is less than 6 and not 0");
 	}
 	return (0);
 }
