@@ -18,6 +18,6 @@ int _isdigit(int c)
 			isdigit = 1;
 			break;
 		}
-		return (isdigit);
 	}
+	return (isdigit);
 }
