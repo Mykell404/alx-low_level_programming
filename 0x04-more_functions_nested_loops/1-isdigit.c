@@ -8,12 +8,13 @@
 
 int _isdigit(int c)
 {
-	int num = 0;
 	int isdigit = 0;
+	int numzero = 48;
+	int numnine = 57;
 
-	for (; num <= 9; num++)
+	for (; numzero <= numnine; numzero++)
 	{
-		if (c == num)
+		if (c == numzero)
 		{
 			isdigit = 1;
 			break;
