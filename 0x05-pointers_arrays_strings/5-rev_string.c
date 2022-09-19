@@ -1,0 +1,20 @@
+#include "main.h"
+
+void rev_string(char *s)
+{
+	char *r = "";
+	int begin, end, count = 0;
+
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+	end = count - 1;
+
+	for (; begin < count; begin++)
+	{
+		r[begin] = s[end];
+		end--;
+	}
+	r[begin] = '\0';
+}
